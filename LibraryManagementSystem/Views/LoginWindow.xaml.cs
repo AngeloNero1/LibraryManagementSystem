@@ -75,7 +75,7 @@ namespace LibraryManagementSystem.Views
                         else
                         {
                             UserDashboardWindow userDashboard =
-                                new UserDashboardWindow();
+                                new UserDashboardWindow(foundUser.Username);
 
                             userDashboard.Show();
                         }

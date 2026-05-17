@@ -1,6 +1,4 @@
-﻿<!-- StaffDashboardWindow.xaml -->
-
-<Window x:Class="LibraryManagementSystem.Views.StaffDashboardWindow"
+﻿<Window x:Class="LibraryManagementSystem.Views.StaffDashboardWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Background="#0F172A"
@@ -15,8 +13,6 @@
             <ColumnDefinition Width="220"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-
-        <!-- SIDEBAR -->
 
         <Border Grid.Column="0"
                 Background="#1E293B">
@@ -88,12 +84,8 @@
 
         </Border>
 
-        <!-- MAIN CONTENT -->
-
         <Grid Grid.Column="1"
               Margin="30">
-
-            <!-- DASHBOARD -->
 
             <StackPanel x:Name="DashboardPanel">
 
@@ -160,8 +152,6 @@
 
             </StackPanel>
 
-            <!-- BOOKS PANEL -->
-
             <Border x:Name="BooksPanel"
                     Visibility="Collapsed"
                     Background="#1E293B"
@@ -174,8 +164,6 @@
                         <ColumnDefinition Width="2*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-
-                    <!-- LEFT -->
 
                     <Grid Grid.Column="0">
 
@@ -221,8 +209,6 @@
                                 Click="btnDeleteBook_Click"/>
 
                     </Grid>
-
-                    <!-- RIGHT -->
 
                     <StackPanel Grid.Column="1"
                                 Margin="20,0,0,0">
@@ -282,18 +268,46 @@
 
             </Border>
 
-            <!-- BORROWED PANEL -->
-
             <Border x:Name="BorrowedPanel"
                     Visibility="Collapsed"
                     Background="#1E293B"
                     CornerRadius="18"
                     Padding="20">
 
-                <TextBlock Text="Borrowed Books Page"
-                           Foreground="White"
-                           FontSize="30"
-                           FontWeight="Bold"/>
+                <Grid>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Borrowed Books"
+                               Foreground="White"
+                               FontSize="30"
+                               FontWeight="Bold"
+                               Margin="0,0,0,20"/>
+
+                    <ListBox Grid.Row="1"
+                             x:Name="lstBorrowedBooks"
+                             Background="#0F172A"
+                             Foreground="White"
+                             BorderThickness="0"
+                             FontSize="16"
+                             Margin="0,0,0,15"/>
+
+                    <Button Grid.Row="2"
+                            x:Name="btnReturnBook"
+                            Content="Return Book"
+                            Width="160"
+                            Height="40"
+                            Background="#DC2626"
+                            Foreground="White"
+                            BorderThickness="0"
+                            HorizontalAlignment="Left"
+                            Click="btnReturnBook_Click"/>
+
+                </Grid>
 
             </Border>
 

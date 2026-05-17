@@ -1,6 +1,4 @@
-﻿// UserDashboardWindow.xaml.cs
-
-using LibraryManagementSystem.Models;
+﻿using LibraryManagementSystem.Models;
 using System.IO;
 using System.Text.Json;
 using System.Windows;
@@ -14,9 +12,13 @@ namespace LibraryManagementSystem.Views
 
         private List<Book> filteredBooks = new List<Book>();
 
-        public UserDashboardWindow()
+        private string currentUsername;
+
+        public UserDashboardWindow(string username)
         {
             InitializeComponent();
+
+            currentUsername = username;
 
             LoadBooks();
         }
@@ -53,7 +55,9 @@ namespace LibraryManagementSystem.Views
         {
             lstBorrowedBooks.Items.Clear();
 
-            foreach (Book book in currentBooks.Where(b => b.IsBorrowed))
+            foreach (Book book in currentBooks.Where(
+                b => b.IsBorrowed &&
+                b.BorrowedBy == currentUsername))
             {
                 lstBorrowedBooks.Items.Add(
                     $"{book.Title} - {book.Author}");
@@ -67,15 +71,21 @@ namespace LibraryManagementSystem.Views
 
             if (string.IsNullOrWhiteSpace(searchText))
             {
-                filteredBooks = currentBooks;
+                filteredBooks =
+                    currentBooks
+                    .Where(b => !b.IsBorrowed)
+                    .ToList();
             }
             else
             {
                 filteredBooks = currentBooks
                     .Where(b =>
-                        (b.Title != null && b.Title.ToLower().Contains(searchText)) ||
-                        (b.Author != null && b.Author.ToLower().Contains(searchText)) ||
-                        (b.Category != null && b.Category.ToLower().Contains(searchText)))
+                        !b.IsBorrowed &&
+                        (
+                            (b.Title != null && b.Title.ToLower().Contains(searchText)) ||
+                            (b.Author != null && b.Author.ToLower().Contains(searchText)) ||
+                            (b.Category != null && b.Category.ToLower().Contains(searchText))
+                        ))
                     .ToList();
             }
 
@@ -154,6 +164,12 @@ namespace LibraryManagementSystem.Views
             }
 
             selectedBook.IsBorrowed = true;
+
+            selectedBook.BorrowedBy =
+                currentUsername;
+
+            selectedBook.BorrowDate =
+                DateTime.Now;
 
             SaveBooks();
 

@@ -15,5 +15,8 @@ namespace LibraryManagementSystem.Models
         public int Stock { get; set; }
 
         public bool IsBorrowed { get; set; }
+        public string? BorrowedBy { get; set; }
+
+        public DateTime BorrowDate { get; set; }
     }
 }

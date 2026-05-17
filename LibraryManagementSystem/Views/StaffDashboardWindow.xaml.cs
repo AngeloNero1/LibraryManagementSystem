@@ -1,6 +1,4 @@
-﻿// StaffDashboardWindow.xaml.cs
-
-using LibraryManagementSystem.Models;
+﻿using LibraryManagementSystem.Models;
 using System.IO;
 using System.Text.Json;
 using System.Windows;
@@ -37,6 +35,8 @@ namespace LibraryManagementSystem.Views
 
             FilterBooks();
 
+            LoadBorrowedBooks();
+
             txtTotalBooks.Text =
                 currentBooks.Count.ToString();
 
@@ -45,6 +45,27 @@ namespace LibraryManagementSystem.Views
 
             txtBorrowedBooks.Text =
                 borrowedCount.ToString();
+        }
+
+        private void LoadBorrowedBooks()
+        {
+            lstBorrowedBooks.Items.Clear();
+
+            foreach (Book book in currentBooks.Where(b => b.IsBorrowed))
+            {
+                int days =
+                    (DateTime.Now - book.BorrowDate).Days;
+
+                string overdueText = "";
+
+                if (days >= 14)
+                {
+                    overdueText = " - OVERDUE";
+                }
+
+                lstBorrowedBooks.Items.Add(
+                    $"{book.Title} - {book.BorrowedBy} - {days} Days{overdueText}");
+            }
         }
 
         private void FilterBooks()
@@ -187,6 +208,39 @@ namespace LibraryManagementSystem.Views
                 "Book updated successfully");
         }
 
+        private void btnReturnBook_Click(object sender, RoutedEventArgs e)
+        {
+            int selectedIndex =
+                lstBorrowedBooks.SelectedIndex;
+
+            if (selectedIndex == -1)
+            {
+                MessageBox.Show(
+                    "Please select a borrowed book");
+
+                return;
+            }
+
+            List<Book> borrowedBooks =
+                currentBooks.Where(
+                    b => b.IsBorrowed)
+                .ToList();
+
+            Book selectedBook =
+                borrowedBooks[selectedIndex];
+
+            selectedBook.IsBorrowed = false;
+
+            selectedBook.BorrowedBy = null;
+
+            SaveBooks();
+
+            LoadBooks();
+
+            MessageBox.Show(
+                "Book returned successfully");
+        }
+
         private void lstBooks_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             int selectedIndex =
@@ -267,6 +321,8 @@ namespace LibraryManagementSystem.Views
 
             BorrowedPanel.Visibility =
                 Visibility.Visible;
+
+            LoadBorrowedBooks();
         }
     }
 }
