@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WİNDOWS7_0_OR_GREATER
 C:\Users\USER\Desktop\C# dersleri\LibraryManagementSystem\LibraryManagementSystem\App.xaml
-4-422187282
+6513030245
 
-122126168117
+14-1771476437
 198-552479049
-Views\AddBookWindow.xaml;Views\DashboardWindow.xaml;Views\LoginWindow.xaml;Views\RegisterWindow.xaml;
+Views\AddBookWindow.xaml;Views\AdminDashboardWindow.xaml;Views\LoginWindow.xaml;Views\RegisterWindow.xaml;Views\StaffDashboardWindow.xaml;Views\UserDashboardWindow.xaml;
 
-True
+False
 

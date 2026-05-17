@@ -1,19 +1,7 @@
 ﻿using LibraryManagementSystem.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using System.IO;
 using System.Text.Json;
+using System.Windows;
 
 namespace LibraryManagementSystem.Views
 {
@@ -30,6 +18,7 @@ namespace LibraryManagementSystem.Views
         private void btnAddBook_Click(object sender, RoutedEventArgs e)
         {
             Book book = new Book();
+
             book.Title = txtTitle.Text;
             book.Author = txtAuthor.Text;
             book.ISBN = txtISBN.Text;
@@ -38,18 +27,33 @@ namespace LibraryManagementSystem.Views
 
             List<Book> books = new List<Book>();
 
-            if(File.Exists("Books.json"))
+            if (File.Exists("books.json"))
             {
-                string jsonData = File.ReadAllText("Books.json");
+                string jsonData =
+                    File.ReadAllText("books.json");
+
                 books = JsonSerializer.Deserialize<List<Book>>(jsonData)
-                ?? new List<Book>();
-
-                books.Add(book);
-                jsonData = JsonSerializer.Serialize(books);
-                File.WriteAllText("Books.json", jsonData);
-
-                MessageBox.Show("Book added successfully");
+                        ?? new List<Book>();
             }
+
+            books.Add(book);
+
+            string updatedJson = JsonSerializer.Serialize(
+                books,
+                new JsonSerializerOptions()
+                {
+                    WriteIndented = true
+                });
+
+            File.WriteAllText("books.json", updatedJson);
+
+            MessageBox.Show("Book added successfully");
+
+            File.WriteAllText("books.json", updatedJson);
+
+            MessageBox.Show("Book added successfully");
+
+            this.Close();
         }
     }
 }

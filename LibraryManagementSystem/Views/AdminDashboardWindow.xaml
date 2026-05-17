@@ -1,0 +1,193 @@
+﻿<Window x:Class="LibraryManagementSystem.Views.AdminDashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Background="#0F172A"
+        Title="AdminDashboardWindow"
+        Height="700"
+        Width="1200"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#1E293B">
+            <StackPanel>
+                <TextBlock Text="LIBRARY ADMIN" Foreground="White" FontSize="24" FontWeight="Bold" Margin="20,30"/>
+
+                <Button x:Name="btnDashboard" Content="Dashboard" Height="45" Margin="15,5" Background="#334155" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnDashboard_Click"/>
+                <Button x:Name="btnBooks" Content="Books" Height="45" Margin="15,5" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnBooks_Click"/>
+                <Button x:Name="btnBorrowed_Books" Content="Borrowed Books" Height="45" Margin="15,5" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnBorrowedBooks_Click"/>
+                <Button x:Name="btnHistory" Content="History" Height="45" Margin="15,5" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnHistory_Click"/>
+                <Button x:Name="btnUsers" Content="Users" Height="45" Margin="15,5" Background="Transparent" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnUsers_Click"/>
+                <Button x:Name="btnAdd_Book" Content="Add Book" Height="45" Margin="15,5" Background="#2563EB" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnAdd_Book_Click"/>
+                <Button x:Name="btnLogout" Content="Logout" Height="45" Margin="15,40,15,5" Background="#7F1D1D" Foreground="White" BorderThickness="0" HorizontalContentAlignment="Left" Padding="20,0,0,0" Click="btnLogout_Click"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Column="1" Margin="30">
+
+            <StackPanel x:Name="DashboardPanel">
+                <TextBlock Text="Admin Dashboard" Foreground="White" FontSize="34" FontWeight="Bold"/>
+                <TextBlock Text="Manage books, users and library system" Foreground="#94A3B8" FontSize="16" Margin="0,5,0,30"/>
+
+                <WrapPanel>
+                    <Border Background="#1E293B" CornerRadius="18" Padding="20" Margin="0,0,20,20" Width="230" Height="140">
+                        <StackPanel>
+                            <TextBlock Text="Total Books" Foreground="#CBD5E1" FontSize="18"/>
+                            <TextBlock x:Name="txtTotalBooks" Text="0" Foreground="White" FontSize="40" FontWeight="Bold" Margin="0,15,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Background="#1E293B" CornerRadius="18" Padding="20" Margin="0,0,20,20" Width="230" Height="140">
+                        <StackPanel>
+                            <TextBlock Text="Borrowed Books" Foreground="#CBD5E1" FontSize="18"/>
+                            <TextBlock x:Name="txtBorrowedBooks" Text="0" Foreground="White" FontSize="40" FontWeight="Bold" Margin="0,15,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Background="#1E293B" CornerRadius="18" Padding="20" Margin="0,0,20,20" Width="230" Height="140">
+                        <StackPanel>
+                            <TextBlock Text="Total Users" Foreground="#CBD5E1" FontSize="18"/>
+                            <TextBlock x:Name="txtTotalUsers" Text="0" Foreground="White" FontSize="40" FontWeight="Bold" Margin="0,15,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Background="#1E293B" CornerRadius="18" Padding="20" Margin="0,0,20,20" Width="230" Height="140">
+                        <StackPanel>
+                            <TextBlock Text="Staff Count" Foreground="#CBD5E1" FontSize="18"/>
+                            <TextBlock x:Name="txtStaffCount" Text="0" Foreground="White" FontSize="40" FontWeight="Bold" Margin="0,15,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Background="#1E293B" CornerRadius="18" Padding="20" Margin="0,0,20,20" Width="230" Height="140">
+                        <StackPanel>
+                            <TextBlock Text="Admin Count" Foreground="#CBD5E1" FontSize="18"/>
+                            <TextBlock x:Name="txtAdminCount" Text="0" Foreground="White" FontSize="40" FontWeight="Bold" Margin="0,15,0,0"/>
+                        </StackPanel>
+                    </Border>
+                </WrapPanel>
+            </StackPanel>
+
+            <Border x:Name="BooksPanel" Visibility="Collapsed" Background="#1E293B" CornerRadius="18" Padding="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Text="Books" Foreground="White" FontSize="28" FontWeight="Bold" Margin="0,0,0,15"/>
+
+                        <TextBox Grid.Row="1"
+                                 x:Name="txtSearchBook"
+                                 Height="38"
+                                 Margin="0,0,0,15"
+                                 FontSize="15"
+                                 Padding="10,0,0,0"
+                                 TextChanged="txtSearchBook_TextChanged"/>
+
+                        <ListBox Grid.Row="2"
+                                 x:Name="lstBooks"
+                                 Background="#0F172A"
+                                 Foreground="White"
+                                 BorderThickness="0"
+                                 FontSize="16"
+                                 Margin="0,0,15,15"
+                                 SelectionChanged="lstBooks_SelectionChanged"/>
+
+                        <Button Grid.Row="3"
+                                x:Name="btnDeleteBook"
+                                Content="Delete Book"
+                                Width="150"
+                                Height="40"
+                                Background="#DC2626"
+                                Foreground="White"
+                                BorderThickness="0"
+                                HorizontalAlignment="Left"
+                                Click="btnDeleteBook_Click"/>
+                    </Grid>
+
+                    <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                        <TextBlock Text="Book Details" Foreground="White" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                        <TextBlock Text="Title" Foreground="#94A3B8"/>
+                        <TextBox x:Name="txtEditTitle" Height="35" Margin="0,5,0,10"/>
+
+                        <TextBlock Text="Author" Foreground="#94A3B8"/>
+                        <TextBox x:Name="txtEditAuthor" Height="35" Margin="0,5,0,10"/>
+
+                        <TextBlock Text="ISBN" Foreground="#94A3B8"/>
+                        <TextBox x:Name="txtEditISBN" Height="35" Margin="0,5,0,10"/>
+
+                        <TextBlock Text="Category" Foreground="#94A3B8"/>
+                        <TextBox x:Name="txtEditCategory" Height="35" Margin="0,5,0,10"/>
+
+                        <TextBlock Text="Stock" Foreground="#94A3B8"/>
+                        <TextBox x:Name="txtEditStock" Height="35" Margin="0,5,0,20"/>
+
+                        <Button x:Name="btnUpdateBook"
+                                Content="Update Book"
+                                Height="40"
+                                Background="#059669"
+                                Foreground="White"
+                                BorderThickness="0"
+                                Click="btnUpdateBook_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border x:Name="BorrowedPanel" Visibility="Collapsed" Background="#1E293B" CornerRadius="18" Padding="20">
+                <TextBlock Text="Borrowed Books Page" Foreground="White" FontSize="30" FontWeight="Bold"/>
+            </Border>
+
+            <Border x:Name="HistoryPanel" Visibility="Collapsed" Background="#1E293B" CornerRadius="18" Padding="20">
+                <TextBlock Text="History Page" Foreground="White" FontSize="30" FontWeight="Bold"/>
+            </Border>
+
+            <Border x:Name="UsersPanel" Visibility="Collapsed" Background="#1E293B" CornerRadius="18" Padding="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel>
+                        <TextBlock Text="Users" Foreground="White" FontSize="28" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                        <ListBox x:Name="lstUsers"
+                                 Background="#0F172A"
+                                 Foreground="White"
+                                 BorderThickness="0"
+                                 FontSize="16"
+                                 Height="400"
+                                 SelectionChanged="lstUsers_SelectionChanged"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                        <TextBlock Text="Selected User Role" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                        <TextBlock x:Name="txtSelectedRole"
+                                   Text="None"
+                                   Foreground="#CBD5E1"
+                                   FontSize="24"
+                                   Margin="0,0,0,30"/>
+
+                        <Button Content="Make User" Height="40" Margin="0,0,0,10" Background="#2563EB" Foreground="White" BorderThickness="0" Click="btnMakeUser_Click"/>
+                        <Button Content="Make Staff" Height="40" Margin="0,0,0,10" Background="#059669" Foreground="White" BorderThickness="0" Click="btnMakeStaff_Click"/>
+                        <Button Content="Make Admin" Height="40" Background="#DC2626" Foreground="White" BorderThickness="0" Click="btnMakeAdmin_Click"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
