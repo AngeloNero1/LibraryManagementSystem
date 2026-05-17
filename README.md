@@ -68,21 +68,6 @@ A modern role-based Library Management System built with C# and WPF.
 * JSON Serialization
 
 ---
-
-## 📷 Screenshots
-
-### Admin Dashboard
-
-(Add Screenshot Here)
-
-### Staff Dashboard
-
-(Add Screenshot Here)
-
-### User Dashboard
-
-(Add Screenshot Here)
-
 ---
 
 ## 📦 Installation
