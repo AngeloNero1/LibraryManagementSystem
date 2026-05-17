@@ -1,0 +1,2402 @@
+[
+  {
+    "Title": "The Hobbit",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9784108968190",
+    "Category": "Fantasy",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Lord of the Rings",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9785956380661",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "1984",
+    "Author": "George Orwell",
+    "ISBN": "9786086265581",
+    "Category": "Dystopian",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Animal Farm",
+    "Author": "George Orwell",
+    "ISBN": "9788755451219",
+    "Category": "Political Fiction",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Brave New World",
+    "Author": "Aldous Huxley",
+    "ISBN": "9782636983942",
+    "Category": "Dystopian",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Fahrenheit 451",
+    "Author": "Ray Bradbury",
+    "ISBN": "9788870175456",
+    "Category": "Dystopian",
+    "Stock": 1,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dune",
+    "Author": "Frank Herbert",
+    "ISBN": "9785693873207",
+    "Category": "Science Fiction",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Foundation",
+    "Author": "Isaac Asimov",
+    "ISBN": "9784443878767",
+    "Category": "Science Fiction",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "I, Robot",
+    "Author": "Isaac Asimov",
+    "ISBN": "9782252264131",
+    "Category": "Science Fiction",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Neuromancer",
+    "Author": "William Gibson",
+    "ISBN": "9788375268987",
+    "Category": "Cyberpunk",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Clean Code",
+    "Author": "Robert C. Martin",
+    "ISBN": "9787716475038",
+    "Category": "Programming",
+    "Stock": 25,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "C# in Depth",
+    "Author": "Jon Skeet",
+    "ISBN": "9784693919539",
+    "Category": "Programming",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Pragmatic Programmer",
+    "Author": "Andrew Hunt",
+    "ISBN": "9789641706334",
+    "Category": "Programming",
+    "Stock": 23,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Design Patterns",
+    "Author": "Erich Gamma",
+    "ISBN": "9781543954331",
+    "Category": "Programming",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Introduction to Algorithms",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9787843228387",
+    "Category": "Computer Science",
+    "Stock": 23,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Atomic Habits",
+    "Author": "James Clear",
+    "ISBN": "9787854667992",
+    "Category": "Self Improvement",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Deep Work",
+    "Author": "Cal Newport",
+    "ISBN": "9789570080143",
+    "Category": "Productivity",
+    "Stock": 18,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Psychology of Money",
+    "Author": "Morgan Housel",
+    "ISBN": "9787721154369",
+    "Category": "Finance",
+    "Stock": 23,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Rich Dad Poor Dad",
+    "Author": "Robert Kiyosaki",
+    "ISBN": "9789905082808",
+    "Category": "Finance",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Alchemist",
+    "Author": "Paulo Coelho",
+    "ISBN": "9787540318101",
+    "Category": "Fiction",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Crime and Punishment",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9785885718424",
+    "Category": "Classic",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Brothers Karamazov",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9782710954047",
+    "Category": "Classic",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Idiot",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9786491956347",
+    "Category": "Classic",
+    "Stock": 23,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "War and Peace",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9787543276003",
+    "Category": "Classic",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Anna Karenina",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9785848452815",
+    "Category": "Classic",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Pride and Prejudice",
+    "Author": "Jane Austen",
+    "ISBN": "9783104904153",
+    "Category": "Classic",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Jane Eyre",
+    "Author": "Charlotte Bronte",
+    "ISBN": "9781607428524",
+    "Category": "Classic",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Wuthering Heights",
+    "Author": "Emily Bronte",
+    "ISBN": "9781936881312",
+    "Category": "Classic",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dracula",
+    "Author": "Bram Stoker",
+    "ISBN": "9787598856783",
+    "Category": "Horror",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Frankenstein",
+    "Author": "Mary Shelley",
+    "ISBN": "9781859303639",
+    "Category": "Horror",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Shining",
+    "Author": "Stephen King",
+    "ISBN": "9784401269873",
+    "Category": "Horror",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "It",
+    "Author": "Stephen King",
+    "ISBN": "9786027109202",
+    "Category": "Horror",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Misery",
+    "Author": "Stephen King",
+    "ISBN": "9788751378657",
+    "Category": "Horror",
+    "Stock": 13,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Stand",
+    "Author": "Stephen King",
+    "ISBN": "9789624692801",
+    "Category": "Horror",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone",
+    "Author": "J.K. Rowling",
+    "ISBN": "9784312241556",
+    "Category": "Fantasy",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets",
+    "Author": "J.K. Rowling",
+    "ISBN": "9787993536223",
+    "Category": "Fantasy",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban",
+    "Author": "J.K. Rowling",
+    "ISBN": "9789050380368",
+    "Category": "Fantasy",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Game of Thrones",
+    "Author": "George R.R. Martin",
+    "ISBN": "9789461771385",
+    "Category": "Fantasy",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Clash of Kings",
+    "Author": "George R.R. Martin",
+    "ISBN": "9785269289264",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Storm of Swords",
+    "Author": "George R.R. Martin",
+    "ISBN": "9782798559796",
+    "Category": "Fantasy",
+    "Stock": 1,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Name of the Wind",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9781835567488",
+    "Category": "Fantasy",
+    "Stock": 25,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Wise Man's Fear",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9783572651935",
+    "Category": "Fantasy",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Mistborn",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9787244736797",
+    "Category": "Fantasy",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Way of Kings",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9785069337878",
+    "Category": "Fantasy",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Words of Radiance",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9788936803923",
+    "Category": "Fantasy",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Final Empire",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9784331577158",
+    "Category": "Fantasy",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Catcher in the Rye",
+    "Author": "J.D. Salinger",
+    "ISBN": "9789019099830",
+    "Category": "Classic",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "To Kill a Mockingbird",
+    "Author": "Harper Lee",
+    "ISBN": "9783824853867",
+    "Category": "Classic",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Great Gatsby",
+    "Author": "F. Scott Fitzgerald",
+    "ISBN": "9784142941286",
+    "Category": "Classic",
+    "Stock": 8,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Moby Dick",
+    "Author": "Herman Melville",
+    "ISBN": "9786982279354",
+    "Category": "Classic",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Don Quixote",
+    "Author": "Miguel de Cervantes",
+    "ISBN": "9787366608100",
+    "Category": "Classic",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Hobbit Vol. 2",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9788426763008",
+    "Category": "Fantasy",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Lord of the Rings Vol. 2",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9786204108176",
+    "Category": "Fantasy",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "1984 Vol. 2",
+    "Author": "George Orwell",
+    "ISBN": "9784509538448",
+    "Category": "Dystopian",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Animal Farm Vol. 2",
+    "Author": "George Orwell",
+    "ISBN": "9783046984866",
+    "Category": "Political Fiction",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Brave New World Vol. 2",
+    "Author": "Aldous Huxley",
+    "ISBN": "9782077480897",
+    "Category": "Dystopian",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Fahrenheit 451 Vol. 2",
+    "Author": "Ray Bradbury",
+    "ISBN": "9781422640960",
+    "Category": "Dystopian",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dune Vol. 2",
+    "Author": "Frank Herbert",
+    "ISBN": "9782642318397",
+    "Category": "Science Fiction",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Foundation Vol. 2",
+    "Author": "Isaac Asimov",
+    "ISBN": "9784030149777",
+    "Category": "Science Fiction",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "I, Robot Vol. 2",
+    "Author": "Isaac Asimov",
+    "ISBN": "9783554460692",
+    "Category": "Science Fiction",
+    "Stock": 2,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Neuromancer Vol. 2",
+    "Author": "William Gibson",
+    "ISBN": "9788540843396",
+    "Category": "Cyberpunk",
+    "Stock": 13,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Clean Code Vol. 2",
+    "Author": "Robert C. Martin",
+    "ISBN": "9783568283121",
+    "Category": "Programming",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "C# in Depth Vol. 2",
+    "Author": "Jon Skeet",
+    "ISBN": "9782256280133",
+    "Category": "Programming",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Pragmatic Programmer Vol. 2",
+    "Author": "Andrew Hunt",
+    "ISBN": "9784402850222",
+    "Category": "Programming",
+    "Stock": 1,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Design Patterns Vol. 2",
+    "Author": "Erich Gamma",
+    "ISBN": "9783433244447",
+    "Category": "Programming",
+    "Stock": 10,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Introduction to Algorithms Vol. 2",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9789757012512",
+    "Category": "Computer Science",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Atomic Habits Vol. 2",
+    "Author": "James Clear",
+    "ISBN": "9781406666011",
+    "Category": "Self Improvement",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Deep Work Vol. 2",
+    "Author": "Cal Newport",
+    "ISBN": "9787171080551",
+    "Category": "Productivity",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Psychology of Money Vol. 2",
+    "Author": "Morgan Housel",
+    "ISBN": "9781592765131",
+    "Category": "Finance",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Rich Dad Poor Dad Vol. 2",
+    "Author": "Robert Kiyosaki",
+    "ISBN": "9782456865405",
+    "Category": "Finance",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Alchemist Vol. 2",
+    "Author": "Paulo Coelho",
+    "ISBN": "9783083526178",
+    "Category": "Fiction",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Crime and Punishment Vol. 2",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9785302762859",
+    "Category": "Classic",
+    "Stock": 4,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Brothers Karamazov Vol. 2",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9784133304117",
+    "Category": "Classic",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Idiot Vol. 2",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9782593646134",
+    "Category": "Classic",
+    "Stock": 13,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "War and Peace Vol. 2",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9783577891623",
+    "Category": "Classic",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Anna Karenina Vol. 2",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9786361736156",
+    "Category": "Classic",
+    "Stock": 1,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Pride and Prejudice Vol. 2",
+    "Author": "Jane Austen",
+    "ISBN": "9782387226061",
+    "Category": "Classic",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Jane Eyre Vol. 2",
+    "Author": "Charlotte Bronte",
+    "ISBN": "9784891776615",
+    "Category": "Classic",
+    "Stock": 3,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Wuthering Heights Vol. 2",
+    "Author": "Emily Bronte",
+    "ISBN": "9789517114159",
+    "Category": "Classic",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dracula Vol. 2",
+    "Author": "Bram Stoker",
+    "ISBN": "9789317402024",
+    "Category": "Horror",
+    "Stock": 14,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Frankenstein Vol. 2",
+    "Author": "Mary Shelley",
+    "ISBN": "9783880733254",
+    "Category": "Horror",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Shining Vol. 2",
+    "Author": "Stephen King",
+    "ISBN": "9785277275186",
+    "Category": "Horror",
+    "Stock": 18,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "It Vol. 2",
+    "Author": "Stephen King",
+    "ISBN": "9787289297159",
+    "Category": "Horror",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Misery Vol. 2",
+    "Author": "Stephen King",
+    "ISBN": "9789049919745",
+    "Category": "Horror",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Stand Vol. 2",
+    "Author": "Stephen King",
+    "ISBN": "9786044280710",
+    "Category": "Horror",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone Vol. 2",
+    "Author": "J.K. Rowling",
+    "ISBN": "9782131356242",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets Vol. 2",
+    "Author": "J.K. Rowling",
+    "ISBN": "9785000108450",
+    "Category": "Fantasy",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban Vol. 2",
+    "Author": "J.K. Rowling",
+    "ISBN": "9785785761051",
+    "Category": "Fantasy",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Game of Thrones Vol. 2",
+    "Author": "George R.R. Martin",
+    "ISBN": "9787451814203",
+    "Category": "Fantasy",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Clash of Kings Vol. 2",
+    "Author": "George R.R. Martin",
+    "ISBN": "9782610616787",
+    "Category": "Fantasy",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Storm of Swords Vol. 2",
+    "Author": "George R.R. Martin",
+    "ISBN": "9784472665983",
+    "Category": "Fantasy",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Name of the Wind Vol. 2",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9784679074733",
+    "Category": "Fantasy",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Wise Man's Fear Vol. 2",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9787776575845",
+    "Category": "Fantasy",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Mistborn Vol. 2",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9781640181668",
+    "Category": "Fantasy",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Way of Kings Vol. 2",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9786327491067",
+    "Category": "Fantasy",
+    "Stock": 1,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Words of Radiance Vol. 2",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9782653048915",
+    "Category": "Fantasy",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Final Empire Vol. 2",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9783993189090",
+    "Category": "Fantasy",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Catcher in the Rye Vol. 2",
+    "Author": "J.D. Salinger",
+    "ISBN": "9789915033337",
+    "Category": "Classic",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "To Kill a Mockingbird Vol. 2",
+    "Author": "Harper Lee",
+    "ISBN": "9786546754938",
+    "Category": "Classic",
+    "Stock": 14,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Great Gatsby Vol. 2",
+    "Author": "F. Scott Fitzgerald",
+    "ISBN": "9785800806866",
+    "Category": "Classic",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Moby Dick Vol. 2",
+    "Author": "Herman Melville",
+    "ISBN": "9788424647064",
+    "Category": "Classic",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Don Quixote Vol. 2",
+    "Author": "Miguel de Cervantes",
+    "ISBN": "9781978744103",
+    "Category": "Classic",
+    "Stock": 11,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Hobbit Vol. 3",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9785457133819",
+    "Category": "Fantasy",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Lord of the Rings Vol. 3",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9788231044464",
+    "Category": "Fantasy",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "1984 Vol. 3",
+    "Author": "George Orwell",
+    "ISBN": "9787619950891",
+    "Category": "Dystopian",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Animal Farm Vol. 3",
+    "Author": "George Orwell",
+    "ISBN": "9785210237599",
+    "Category": "Political Fiction",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Brave New World Vol. 3",
+    "Author": "Aldous Huxley",
+    "ISBN": "9789544419414",
+    "Category": "Dystopian",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Fahrenheit 451 Vol. 3",
+    "Author": "Ray Bradbury",
+    "ISBN": "9787999981695",
+    "Category": "Dystopian",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dune Vol. 3",
+    "Author": "Frank Herbert",
+    "ISBN": "9781128657009",
+    "Category": "Science Fiction",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Foundation Vol. 3",
+    "Author": "Isaac Asimov",
+    "ISBN": "9787579887013",
+    "Category": "Science Fiction",
+    "Stock": 10,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "I, Robot Vol. 3",
+    "Author": "Isaac Asimov",
+    "ISBN": "9785412688059",
+    "Category": "Science Fiction",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Neuromancer Vol. 3",
+    "Author": "William Gibson",
+    "ISBN": "9782501359833",
+    "Category": "Cyberpunk",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Clean Code Vol. 3",
+    "Author": "Robert C. Martin",
+    "ISBN": "9785125882948",
+    "Category": "Programming",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "C# in Depth Vol. 3",
+    "Author": "Jon Skeet",
+    "ISBN": "9788279449088",
+    "Category": "Programming",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Pragmatic Programmer Vol. 3",
+    "Author": "Andrew Hunt",
+    "ISBN": "9782249786439",
+    "Category": "Programming",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Design Patterns Vol. 3",
+    "Author": "Erich Gamma",
+    "ISBN": "9788082889223",
+    "Category": "Programming",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Introduction to Algorithms Vol. 3",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9787800179901",
+    "Category": "Computer Science",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Atomic Habits Vol. 3",
+    "Author": "James Clear",
+    "ISBN": "9788726461004",
+    "Category": "Self Improvement",
+    "Stock": 18,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Deep Work Vol. 3",
+    "Author": "Cal Newport",
+    "ISBN": "9784833804924",
+    "Category": "Productivity",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Psychology of Money Vol. 3",
+    "Author": "Morgan Housel",
+    "ISBN": "9789857115611",
+    "Category": "Finance",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Rich Dad Poor Dad Vol. 3",
+    "Author": "Robert Kiyosaki",
+    "ISBN": "9788933576559",
+    "Category": "Finance",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Alchemist Vol. 3",
+    "Author": "Paulo Coelho",
+    "ISBN": "9788686774620",
+    "Category": "Fiction",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Crime and Punishment Vol. 3",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9784879765895",
+    "Category": "Classic",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Brothers Karamazov Vol. 3",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9782221252459",
+    "Category": "Classic",
+    "Stock": 16,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Idiot Vol. 3",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9789400829249",
+    "Category": "Classic",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "War and Peace Vol. 3",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9788585519297",
+    "Category": "Classic",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Anna Karenina Vol. 3",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9781611899528",
+    "Category": "Classic",
+    "Stock": 2,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Pride and Prejudice Vol. 3",
+    "Author": "Jane Austen",
+    "ISBN": "9788112493086",
+    "Category": "Classic",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Jane Eyre Vol. 3",
+    "Author": "Charlotte Bronte",
+    "ISBN": "9783742677830",
+    "Category": "Classic",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Wuthering Heights Vol. 3",
+    "Author": "Emily Bronte",
+    "ISBN": "9787494548487",
+    "Category": "Classic",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dracula Vol. 3",
+    "Author": "Bram Stoker",
+    "ISBN": "9783773987537",
+    "Category": "Horror",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Frankenstein Vol. 3",
+    "Author": "Mary Shelley",
+    "ISBN": "9783487446018",
+    "Category": "Horror",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Shining Vol. 3",
+    "Author": "Stephen King",
+    "ISBN": "9789258194984",
+    "Category": "Horror",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "It Vol. 3",
+    "Author": "Stephen King",
+    "ISBN": "9786856786630",
+    "Category": "Horror",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Misery Vol. 3",
+    "Author": "Stephen King",
+    "ISBN": "9782515668951",
+    "Category": "Horror",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Stand Vol. 3",
+    "Author": "Stephen King",
+    "ISBN": "9782246026702",
+    "Category": "Horror",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone Vol. 3",
+    "Author": "J.K. Rowling",
+    "ISBN": "9789050135931",
+    "Category": "Fantasy",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets Vol. 3",
+    "Author": "J.K. Rowling",
+    "ISBN": "9785176071691",
+    "Category": "Fantasy",
+    "Stock": 14,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban Vol. 3",
+    "Author": "J.K. Rowling",
+    "ISBN": "9785957229201",
+    "Category": "Fantasy",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Game of Thrones Vol. 3",
+    "Author": "George R.R. Martin",
+    "ISBN": "9781188295409",
+    "Category": "Fantasy",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Clash of Kings Vol. 3",
+    "Author": "George R.R. Martin",
+    "ISBN": "9785349709074",
+    "Category": "Fantasy",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Storm of Swords Vol. 3",
+    "Author": "George R.R. Martin",
+    "ISBN": "9784135716825",
+    "Category": "Fantasy",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Name of the Wind Vol. 3",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9786555881206",
+    "Category": "Fantasy",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Wise Man's Fear Vol. 3",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9787538286960",
+    "Category": "Fantasy",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Mistborn Vol. 3",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9785287941901",
+    "Category": "Fantasy",
+    "Stock": 14,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Way of Kings Vol. 3",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9785259254662",
+    "Category": "Fantasy",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Words of Radiance Vol. 3",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9782494156440",
+    "Category": "Fantasy",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Final Empire Vol. 3",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9788558806227",
+    "Category": "Fantasy",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Catcher in the Rye Vol. 3",
+    "Author": "J.D. Salinger",
+    "ISBN": "9783258198773",
+    "Category": "Classic",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "To Kill a Mockingbird Vol. 3",
+    "Author": "Harper Lee",
+    "ISBN": "9784844005521",
+    "Category": "Classic",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Great Gatsby Vol. 3",
+    "Author": "F. Scott Fitzgerald",
+    "ISBN": "9783901216532",
+    "Category": "Classic",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Moby Dick Vol. 3",
+    "Author": "Herman Melville",
+    "ISBN": "9785144159906",
+    "Category": "Classic",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Don Quixote Vol. 3",
+    "Author": "Miguel de Cervantes",
+    "ISBN": "9786479689180",
+    "Category": "Classic",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Hobbit Vol. 4",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9784659951168",
+    "Category": "Fantasy",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Lord of the Rings Vol. 4",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9784659702766",
+    "Category": "Fantasy",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "1984 Vol. 4",
+    "Author": "George Orwell",
+    "ISBN": "9782722319819",
+    "Category": "Dystopian",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Animal Farm Vol. 4",
+    "Author": "George Orwell",
+    "ISBN": "9785298007442",
+    "Category": "Political Fiction",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Brave New World Vol. 4",
+    "Author": "Aldous Huxley",
+    "ISBN": "9784616300813",
+    "Category": "Dystopian",
+    "Stock": 17,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Fahrenheit 451 Vol. 4",
+    "Author": "Ray Bradbury",
+    "ISBN": "9781865058887",
+    "Category": "Dystopian",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dune Vol. 4",
+    "Author": "Frank Herbert",
+    "ISBN": "9788603521777",
+    "Category": "Science Fiction",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Foundation Vol. 4",
+    "Author": "Isaac Asimov",
+    "ISBN": "9789836896916",
+    "Category": "Science Fiction",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "I, Robot Vol. 4",
+    "Author": "Isaac Asimov",
+    "ISBN": "9781661460099",
+    "Category": "Science Fiction",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Neuromancer Vol. 4",
+    "Author": "William Gibson",
+    "ISBN": "9787355647336",
+    "Category": "Cyberpunk",
+    "Stock": 15,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Clean Code Vol. 4",
+    "Author": "Robert C. Martin",
+    "ISBN": "9784057395659",
+    "Category": "Programming",
+    "Stock": 1,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "C# in Depth Vol. 4",
+    "Author": "Jon Skeet",
+    "ISBN": "9787643696704",
+    "Category": "Programming",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Pragmatic Programmer Vol. 4",
+    "Author": "Andrew Hunt",
+    "ISBN": "9786736420709",
+    "Category": "Programming",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Design Patterns Vol. 4",
+    "Author": "Erich Gamma",
+    "ISBN": "9789056299998",
+    "Category": "Programming",
+    "Stock": 8,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Introduction to Algorithms Vol. 4",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9785307933812",
+    "Category": "Computer Science",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Atomic Habits Vol. 4",
+    "Author": "James Clear",
+    "ISBN": "9786421701701",
+    "Category": "Self Improvement",
+    "Stock": 17,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Deep Work Vol. 4",
+    "Author": "Cal Newport",
+    "ISBN": "9785945952835",
+    "Category": "Productivity",
+    "Stock": 14,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Psychology of Money Vol. 4",
+    "Author": "Morgan Housel",
+    "ISBN": "9788407415774",
+    "Category": "Finance",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Rich Dad Poor Dad Vol. 4",
+    "Author": "Robert Kiyosaki",
+    "ISBN": "9784920532791",
+    "Category": "Finance",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Alchemist Vol. 4",
+    "Author": "Paulo Coelho",
+    "ISBN": "9788661050948",
+    "Category": "Fiction",
+    "Stock": 7,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Crime and Punishment Vol. 4",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9786326535020",
+    "Category": "Classic",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Brothers Karamazov Vol. 4",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9786396979336",
+    "Category": "Classic",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Idiot Vol. 4",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9788354955544",
+    "Category": "Classic",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "War and Peace Vol. 4",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9786064208312",
+    "Category": "Classic",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Anna Karenina Vol. 4",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9782567658723",
+    "Category": "Classic",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Pride and Prejudice Vol. 4",
+    "Author": "Jane Austen",
+    "ISBN": "9783490096237",
+    "Category": "Classic",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Jane Eyre Vol. 4",
+    "Author": "Charlotte Bronte",
+    "ISBN": "9781416117474",
+    "Category": "Classic",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Wuthering Heights Vol. 4",
+    "Author": "Emily Bronte",
+    "ISBN": "9787307577795",
+    "Category": "Classic",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dracula Vol. 4",
+    "Author": "Bram Stoker",
+    "ISBN": "9788437671604",
+    "Category": "Horror",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Frankenstein Vol. 4",
+    "Author": "Mary Shelley",
+    "ISBN": "9788027105823",
+    "Category": "Horror",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Shining Vol. 4",
+    "Author": "Stephen King",
+    "ISBN": "9789225905227",
+    "Category": "Horror",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "It Vol. 4",
+    "Author": "Stephen King",
+    "ISBN": "9786063056188",
+    "Category": "Horror",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Misery Vol. 4",
+    "Author": "Stephen King",
+    "ISBN": "9785299202681",
+    "Category": "Horror",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Stand Vol. 4",
+    "Author": "Stephen King",
+    "ISBN": "9781653789426",
+    "Category": "Horror",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone Vol. 4",
+    "Author": "J.K. Rowling",
+    "ISBN": "9789324561037",
+    "Category": "Fantasy",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets Vol. 4",
+    "Author": "J.K. Rowling",
+    "ISBN": "9786255740675",
+    "Category": "Fantasy",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban Vol. 4",
+    "Author": "J.K. Rowling",
+    "ISBN": "9785441292282",
+    "Category": "Fantasy",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Game of Thrones Vol. 4",
+    "Author": "George R.R. Martin",
+    "ISBN": "9788100159827",
+    "Category": "Fantasy",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Clash of Kings Vol. 4",
+    "Author": "George R.R. Martin",
+    "ISBN": "9789479321286",
+    "Category": "Fantasy",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Storm of Swords Vol. 4",
+    "Author": "George R.R. Martin",
+    "ISBN": "9783508672995",
+    "Category": "Fantasy",
+    "Stock": 14,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Name of the Wind Vol. 4",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9783500662748",
+    "Category": "Fantasy",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Wise Man's Fear Vol. 4",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9788086674847",
+    "Category": "Fantasy",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Mistborn Vol. 4",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9783997596969",
+    "Category": "Fantasy",
+    "Stock": 20,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Way of Kings Vol. 4",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9789652959738",
+    "Category": "Fantasy",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Words of Radiance Vol. 4",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9782947330042",
+    "Category": "Fantasy",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Final Empire Vol. 4",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9785398522841",
+    "Category": "Fantasy",
+    "Stock": 15,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Catcher in the Rye Vol. 4",
+    "Author": "J.D. Salinger",
+    "ISBN": "9782278833487",
+    "Category": "Classic",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "To Kill a Mockingbird Vol. 4",
+    "Author": "Harper Lee",
+    "ISBN": "9783740691459",
+    "Category": "Classic",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Great Gatsby Vol. 4",
+    "Author": "F. Scott Fitzgerald",
+    "ISBN": "9786803964339",
+    "Category": "Classic",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Moby Dick Vol. 4",
+    "Author": "Herman Melville",
+    "ISBN": "9783645533964",
+    "Category": "Classic",
+    "Stock": 18,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Don Quixote Vol. 4",
+    "Author": "Miguel de Cervantes",
+    "ISBN": "9789844960501",
+    "Category": "Classic",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Hobbit Vol. 5",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9789856452194",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Lord of the Rings Vol. 5",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9784486512419",
+    "Category": "Fantasy",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "1984 Vol. 5",
+    "Author": "George Orwell",
+    "ISBN": "9789302287528",
+    "Category": "Dystopian",
+    "Stock": 17,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Animal Farm Vol. 5",
+    "Author": "George Orwell",
+    "ISBN": "9781305526188",
+    "Category": "Political Fiction",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Brave New World Vol. 5",
+    "Author": "Aldous Huxley",
+    "ISBN": "9788713386297",
+    "Category": "Dystopian",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Fahrenheit 451 Vol. 5",
+    "Author": "Ray Bradbury",
+    "ISBN": "9787213556946",
+    "Category": "Dystopian",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dune Vol. 5",
+    "Author": "Frank Herbert",
+    "ISBN": "9782570699705",
+    "Category": "Science Fiction",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Foundation Vol. 5",
+    "Author": "Isaac Asimov",
+    "ISBN": "9783237545284",
+    "Category": "Science Fiction",
+    "Stock": 13,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "I, Robot Vol. 5",
+    "Author": "Isaac Asimov",
+    "ISBN": "9782130579875",
+    "Category": "Science Fiction",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Neuromancer Vol. 5",
+    "Author": "William Gibson",
+    "ISBN": "9788358244668",
+    "Category": "Cyberpunk",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Clean Code Vol. 5",
+    "Author": "Robert C. Martin",
+    "ISBN": "9784541890743",
+    "Category": "Programming",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "C# in Depth Vol. 5",
+    "Author": "Jon Skeet",
+    "ISBN": "9785270844705",
+    "Category": "Programming",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Pragmatic Programmer Vol. 5",
+    "Author": "Andrew Hunt",
+    "ISBN": "9783167775153",
+    "Category": "Programming",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Design Patterns Vol. 5",
+    "Author": "Erich Gamma",
+    "ISBN": "9789246839567",
+    "Category": "Programming",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Introduction to Algorithms Vol. 5",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9787889166144",
+    "Category": "Computer Science",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Atomic Habits Vol. 5",
+    "Author": "James Clear",
+    "ISBN": "9786800535885",
+    "Category": "Self Improvement",
+    "Stock": 22,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Deep Work Vol. 5",
+    "Author": "Cal Newport",
+    "ISBN": "9788634146247",
+    "Category": "Productivity",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Psychology of Money Vol. 5",
+    "Author": "Morgan Housel",
+    "ISBN": "9781473993462",
+    "Category": "Finance",
+    "Stock": 22,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Rich Dad Poor Dad Vol. 5",
+    "Author": "Robert Kiyosaki",
+    "ISBN": "9789571615089",
+    "Category": "Finance",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Alchemist Vol. 5",
+    "Author": "Paulo Coelho",
+    "ISBN": "9786568506978",
+    "Category": "Fiction",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Crime and Punishment Vol. 5",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9782487708001",
+    "Category": "Classic",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Brothers Karamazov Vol. 5",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9788578497699",
+    "Category": "Classic",
+    "Stock": 23,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Idiot Vol. 5",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9782691464957",
+    "Category": "Classic",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "War and Peace Vol. 5",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9781852642143",
+    "Category": "Classic",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Anna Karenina Vol. 5",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9788429078281",
+    "Category": "Classic",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Pride and Prejudice Vol. 5",
+    "Author": "Jane Austen",
+    "ISBN": "9784307429972",
+    "Category": "Classic",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Jane Eyre Vol. 5",
+    "Author": "Charlotte Bronte",
+    "ISBN": "9789597733517",
+    "Category": "Classic",
+    "Stock": 21,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Wuthering Heights Vol. 5",
+    "Author": "Emily Bronte",
+    "ISBN": "9785495950860",
+    "Category": "Classic",
+    "Stock": 13,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Dracula Vol. 5",
+    "Author": "Bram Stoker",
+    "ISBN": "9784528940572",
+    "Category": "Horror",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Frankenstein Vol. 5",
+    "Author": "Mary Shelley",
+    "ISBN": "9787591924034",
+    "Category": "Horror",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Shining Vol. 5",
+    "Author": "Stephen King",
+    "ISBN": "9781807413732",
+    "Category": "Horror",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "It Vol. 5",
+    "Author": "Stephen King",
+    "ISBN": "9781672990981",
+    "Category": "Horror",
+    "Stock": 24,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Misery Vol. 5",
+    "Author": "Stephen King",
+    "ISBN": "9789582452369",
+    "Category": "Horror",
+    "Stock": 18,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Stand Vol. 5",
+    "Author": "Stephen King",
+    "ISBN": "9787217556499",
+    "Category": "Horror",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone Vol. 5",
+    "Author": "J.K. Rowling",
+    "ISBN": "9789566563937",
+    "Category": "Fantasy",
+    "Stock": 14,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets Vol. 5",
+    "Author": "J.K. Rowling",
+    "ISBN": "9787825173081",
+    "Category": "Fantasy",
+    "Stock": 25,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban Vol. 5",
+    "Author": "J.K. Rowling",
+    "ISBN": "9783265049957",
+    "Category": "Fantasy",
+    "Stock": 25,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "A Game of Thrones Vol. 5",
+    "Author": "George R.R. Martin",
+    "ISBN": "9785293643568",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "A Clash of Kings Vol. 5",
+    "Author": "George R.R. Martin",
+    "ISBN": "9782336288098",
+    "Category": "Fantasy",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Storm of Swords Vol. 5",
+    "Author": "George R.R. Martin",
+    "ISBN": "9782204147143",
+    "Category": "Fantasy",
+    "Stock": 19,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Name of the Wind Vol. 5",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9786107504859",
+    "Category": "Fantasy",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Wise Man's Fear Vol. 5",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9789611879324",
+    "Category": "Fantasy",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Mistborn Vol. 5",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9789373034002",
+    "Category": "Fantasy",
+    "Stock": 6,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Way of Kings Vol. 5",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9784989713450",
+    "Category": "Fantasy",
+    "Stock": 15,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Words of Radiance Vol. 5",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9782141252998",
+    "Category": "Fantasy",
+    "Stock": 11,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Final Empire Vol. 5",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9781156966698",
+    "Category": "Fantasy",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Catcher in the Rye Vol. 5",
+    "Author": "J.D. Salinger",
+    "ISBN": "9781281630030",
+    "Category": "Classic",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "To Kill a Mockingbird Vol. 5",
+    "Author": "Harper Lee",
+    "ISBN": "9787451853870",
+    "Category": "Classic",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Great Gatsby Vol. 5",
+    "Author": "F. Scott Fitzgerald",
+    "ISBN": "9784110616152",
+    "Category": "Classic",
+    "Stock": 10,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Moby Dick Vol. 5",
+    "Author": "Herman Melville",
+    "ISBN": "9789491840587",
+    "Category": "Classic",
+    "Stock": 13,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Don Quixote Vol. 5",
+    "Author": "Miguel de Cervantes",
+    "ISBN": "9788932031416",
+    "Category": "Classic",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Hobbit Vol. 6",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9786167161008",
+    "Category": "Fantasy",
+    "Stock": 7,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Lord of the Rings Vol. 6",
+    "Author": "J.R.R. Tolkien",
+    "ISBN": "9785530095670",
+    "Category": "Fantasy",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "1984 Vol. 6",
+    "Author": "George Orwell",
+    "ISBN": "9787593643211",
+    "Category": "Dystopian",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Animal Farm Vol. 6",
+    "Author": "George Orwell",
+    "ISBN": "9782298582257",
+    "Category": "Political Fiction",
+    "Stock": 21,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Brave New World Vol. 6",
+    "Author": "Aldous Huxley",
+    "ISBN": "9787877009682",
+    "Category": "Dystopian",
+    "Stock": 12,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Fahrenheit 451 Vol. 6",
+    "Author": "Ray Bradbury",
+    "ISBN": "9786322121533",
+    "Category": "Dystopian",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dune Vol. 6",
+    "Author": "Frank Herbert",
+    "ISBN": "9785384431125",
+    "Category": "Science Fiction",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Foundation Vol. 6",
+    "Author": "Isaac Asimov",
+    "ISBN": "9783363948013",
+    "Category": "Science Fiction",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "I, Robot Vol. 6",
+    "Author": "Isaac Asimov",
+    "ISBN": "9782003534744",
+    "Category": "Science Fiction",
+    "Stock": 7,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Neuromancer Vol. 6",
+    "Author": "William Gibson",
+    "ISBN": "9781706864464",
+    "Category": "Cyberpunk",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Clean Code Vol. 6",
+    "Author": "Robert C. Martin",
+    "ISBN": "9784701873896",
+    "Category": "Programming",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "C# in Depth Vol. 6",
+    "Author": "Jon Skeet",
+    "ISBN": "9782238393879",
+    "Category": "Programming",
+    "Stock": 5,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Pragmatic Programmer Vol. 6",
+    "Author": "Andrew Hunt",
+    "ISBN": "9783745385973",
+    "Category": "Programming",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Design Patterns Vol. 6",
+    "Author": "Erich Gamma",
+    "ISBN": "9785282480667",
+    "Category": "Programming",
+    "Stock": 14,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Introduction to Algorithms Vol. 6",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9783238021971",
+    "Category": "Computer Science",
+    "Stock": 23,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Atomic Habits Vol. 6",
+    "Author": "James Clear",
+    "ISBN": "9786177539778",
+    "Category": "Self Improvement",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Deep Work Vol. 6",
+    "Author": "Cal Newport",
+    "ISBN": "9781572122237",
+    "Category": "Productivity",
+    "Stock": 12,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Psychology of Money Vol. 6",
+    "Author": "Morgan Housel",
+    "ISBN": "9782737557627",
+    "Category": "Finance",
+    "Stock": 2,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Rich Dad Poor Dad Vol. 6",
+    "Author": "Robert Kiyosaki",
+    "ISBN": "9782488867024",
+    "Category": "Finance",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Alchemist Vol. 6",
+    "Author": "Paulo Coelho",
+    "ISBN": "9782869061963",
+    "Category": "Fiction",
+    "Stock": 8,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Crime and Punishment Vol. 6",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9786261828573",
+    "Category": "Classic",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Brothers Karamazov Vol. 6",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9786396202755",
+    "Category": "Classic",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Idiot Vol. 6",
+    "Author": "Fyodor Dostoevsky",
+    "ISBN": "9784223085866",
+    "Category": "Classic",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "War and Peace Vol. 6",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9786463756565",
+    "Category": "Classic",
+    "Stock": 5,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Anna Karenina Vol. 6",
+    "Author": "Leo Tolstoy",
+    "ISBN": "9786634914305",
+    "Category": "Classic",
+    "Stock": 20,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Pride and Prejudice Vol. 6",
+    "Author": "Jane Austen",
+    "ISBN": "9783825472756",
+    "Category": "Classic",
+    "Stock": 23,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Jane Eyre Vol. 6",
+    "Author": "Charlotte Bronte",
+    "ISBN": "9783824716672",
+    "Category": "Classic",
+    "Stock": 8,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Wuthering Heights Vol. 6",
+    "Author": "Emily Bronte",
+    "ISBN": "9781487228210",
+    "Category": "Classic",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Dracula Vol. 6",
+    "Author": "Bram Stoker",
+    "ISBN": "9782017430619",
+    "Category": "Horror",
+    "Stock": 9,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Frankenstein Vol. 6",
+    "Author": "Mary Shelley",
+    "ISBN": "9789708432329",
+    "Category": "Horror",
+    "Stock": 16,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "The Shining Vol. 6",
+    "Author": "Stephen King",
+    "ISBN": "9789452841582",
+    "Category": "Horror",
+    "Stock": 13,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "It Vol. 6",
+    "Author": "Stephen King",
+    "ISBN": "9789328641034",
+    "Category": "Horror",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Misery Vol. 6",
+    "Author": "Stephen King",
+    "ISBN": "9782588610773",
+    "Category": "Horror",
+    "Stock": 19,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Stand Vol. 6",
+    "Author": "Stephen King",
+    "ISBN": "9782724067672",
+    "Category": "Horror",
+    "Stock": 23,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Harry Potter and the Sorcerer's Stone Vol. 6",
+    "Author": "J.K. Rowling",
+    "ISBN": "9782047872687",
+    "Category": "Fantasy",
+    "Stock": 2,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Harry Potter and the Chamber of Secrets Vol. 6",
+    "Author": "J.K. Rowling",
+    "ISBN": "9789385003452",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": true
+  },
+  {
+    "Title": "Harry Potter and the Prisoner of Azkaban Vol. 6",
+    "Author": "J.K. Rowling",
+    "ISBN": "9782991707860",
+    "Category": "Fantasy",
+    "Stock": 7,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Game of Thrones Vol. 6",
+    "Author": "George R.R. Martin",
+    "ISBN": "9783335398951",
+    "Category": "Fantasy",
+    "Stock": 17,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Clash of Kings Vol. 6",
+    "Author": "George R.R. Martin",
+    "ISBN": "9787825765350",
+    "Category": "Fantasy",
+    "Stock": 3,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "A Storm of Swords Vol. 6",
+    "Author": "George R.R. Martin",
+    "ISBN": "9783259405993",
+    "Category": "Fantasy",
+    "Stock": 11,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Name of the Wind Vol. 6",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9788916286203",
+    "Category": "Fantasy",
+    "Stock": 4,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Wise Man's Fear Vol. 6",
+    "Author": "Patrick Rothfuss",
+    "ISBN": "9788449362256",
+    "Category": "Fantasy",
+    "Stock": 16,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Mistborn Vol. 6",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9787727053293",
+    "Category": "Fantasy",
+    "Stock": 21,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "The Way of Kings Vol. 6",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9785193055703",
+    "Category": "Fantasy",
+    "Stock": 6,
+    "IsBorrowed": false
+  },
+  {
+    "Title": "Words of Radiance Vol. 6",
+    "Author": "Brandon Sanderson",
+    "ISBN": "9788725777059",
+    "Category": "Fantasy",
+    "Stock": 1,
+    "IsBorrowed": false
+  }
+]
