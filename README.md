@@ -1,95 +1,58 @@
 # 📚 Library Management System
 
-A modern role-based Library Management System built with C# and WPF.
-
-## 🚀 Features
-
-### 🔐 Authentication System
-
-* User Login/Register
-* SHA256 Password Hashing
-* Role-Based Access System
+A desktop-based Library Management System developed with **C#**, **WPF**, and **.NET 8**.  
+This application provides a role-based environment for managing books and users in a library system.
 
 ---
 
-## 👑 Admin Panel
+## Overview
 
-* Add / Update / Delete Books
-* User Management
-* Role Management
-* Dashboard Statistics
-* Search System
-* Live Book Refresh
-* Dynamic Navigation System
+The project is designed to simulate a simple real-world library system with different user roles:
 
----
+- **Admin** – full system control
+- **Staff** – manages books and borrowing operations
+- **User** – searches and borrows books
 
-## 🛠 Staff Panel
-
-* Manage Books
-* Update Book Information
-* Delete Books
-* Borrow System Access
+The application uses a clean WPF interface and stores data locally using JSON files.
 
 ---
 
-## 👤 User Panel
+## Features
 
-* Browse Books
-* Search Books
-* Borrow Books
-* View Borrowed Books
+### Authentication
+- User registration
+- User login
+- Password hashing with SHA256
+- Role-based access control
 
----
+### Admin Functions
+- Add new books
+- Update book information
+- Delete books
+- Manage users
+- Access admin dashboard
 
-## 🎨 UI Features
+### Staff Functions
+- View all books
+- Update book details
+- Remove books
+- Manage borrowing operations
 
-* Modern Dark Theme
-* Sidebar Navigation
-* Dynamic Dashboard Panels
-* Responsive Layout Structure
-
----
-
-## 💾 Data System
-
-* JSON-Based Storage
-* Live Data Updates
-* Real-Time Dashboard Statistics
-
----
-
-## 🧰 Technologies Used
-
-* C#
-* WPF
-* XAML
-* .NET
-* JSON Serialization
-
----
----
-
-## 📦 Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/AngeloNero1/LibraryManagementSystem.git
-```
-
-2. Open the project in Visual Studio
-
-3. Run the application
+### User Functions
+- Browse available books
+- Search books
+- Borrow books
+- View borrowed books
 
 ---
 
-## 📌 Project Status
+## Project Structure
 
-✅ Completed MVP Version
-
----
-
-## 👨‍💻 Developer
-
-AngeloNero1
+```text
+LibraryManagementSystem/
+│
+├── Models/           # Data models (Book, User)
+├── Services/         # Helper services (Password hashing)
+├── Views/            # WPF windows and UI screens
+├── App.xaml          # Application entry point
+└── LibraryManagementSystem.csproj
